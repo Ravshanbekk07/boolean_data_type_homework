@@ -7,4 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a > 0 and type(1)==type(a) #int ==type(a)
+   
+v = main(-1)
+print(v)
